@@ -23,10 +23,6 @@
 
 + (instancetype)escaperWithSource:(NSString *)source
 {
-    if (!source) {
-        return nil;
-    }
-    
     XYCharacterEscaper* escaper = [XYCharacterEscaper new];
     [escaper setSource:source];
     
